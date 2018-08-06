@@ -1,0 +1,63 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+body {
+	display: flex;
+	justify-content: center;
+
+}
+
+input:focus {
+	outline: none;
+}
+
+.container {
+	height: 250px;
+	width: 420px;
+	border-radius: 12px;
+	background: #bbb;
+	padding: 20px;
+}
+
+.title {
+	font: bold 30px sans-serif;
+	padding-top: 15px;
+}
+
+.cardNumber {
+	width: 340px;
+	height: 40px;
+	margin-top: 25px;
+}
+
+.cardExpirationContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 70px;
+	margin-top: 20px;
+	margin-left: 210px;
+	position: relative;
+	top: 15px;
+}
+
+.cardExpiration {
+	width: 27px;
+	height: 20px;
+}
+
+.slash {
+	font-size: 20px;
+}
+
+.name {
+	width: 250px; 
+	margin-top: 25px;
+}
+
+#icon {
+	font-size: 70px;
+	margin-left: 40px;
+	position: absolute;
+	top: 170px;
+}
